@@ -7,4 +7,4 @@ Data exploration was undertaken to determine distribution and spread. Univariate
 
 Multiple models were compared, and best performing model was a Light Gradient Boosted Machine (Light GBM). Through analyzing feature importance and SHAP values from model preditcions, most important features in contributing to employee churn were average hours rendered per week, employee performance rating, and  employee satisfaction.  
 
-Model test AUC is at 91.34%, and accuracy is at 85%.
+Model test AUC is at 91.34%, and test accuracy is at 85%.
