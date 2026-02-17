@@ -10,10 +10,6 @@ import lightgbm as lgbm
 import pandas as pd
 from flask import Flask, request, jsonify
 
-# #Data
-# input_ = pd.read_csv('employee_churn_test.csv')
-# input_ = input_.iloc[:,1:]
-# input_ = input_.to_json()
 
 #Load model
 with open('employee_churn_model.pkl', 'rb') as gbm:
